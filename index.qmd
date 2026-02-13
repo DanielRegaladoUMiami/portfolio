@@ -10,6 +10,8 @@ css: styles.css
 
 ::: {.hero-content}
 
+![](assets/headshot.png){.headshot alt="Daniel Regalado"}
+
 # Daniel Regalado Cardoso {.hero-name}
 
 ### Data Scientist · AI/ML Engineer · Business Analyst · Data Analyst {.hero-title}
@@ -63,35 +65,6 @@ I'm fluent in English and Spanish, and I bring experience from companies like **
 :::
 
 
-::: {.section-container .section-alt}
-
-## Featured Projects {.section-title}
-
-::: {.projects-grid}
-
-::: {.project-card}
-### 🏥 AI Scheduling Assistant
-**UHealth Bascom Palmer Eye Institute** · Sep 2025 – Present
-
-Built a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. Implemented RAG with ChromaDB, deterministic safety gates, confidence scoring, and real-time monitoring via LangSmith.
-
-`LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB`
-:::
-
-::: {.project-card}
-### 🚌 AI for Equitable Public Transportation
-**Deloitte** · Jan 2026 – Present
-
-Building predictive models with regression and time series forecasting (ARIMA) using Census, GTFS, and accessibility data to identify transit gaps, with simulation models and an interactive dashboard for equity-driven recommendations.
-
-`Python` `ARIMA` `Predictive Modeling` `Dashboard`
-:::
-
-:::
-
-:::
-
-
 ::: {.section-container}
 
 ## Experience {.section-title}
@@ -121,6 +94,35 @@ Conducted market research and statistical analysis; produced executive reports t
 **Revenue Intern** · Jan 2022 – Jul 2022
 
 Built predictive models and automated dashboards for pricing optimization and competitor tracking across national markets.
+:::
+
+:::
+
+:::
+
+
+::: {.section-container .section-alt}
+
+## Featured Projects {.section-title}
+
+::: {.projects-grid}
+
+::: {.project-card}
+### {{< fa solid calendar-check >}} AI Scheduling Assistant
+**UHealth Bascom Palmer Eye Institute** · Sep 2025 – Present
+
+Built a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. Implemented RAG with ChromaDB, deterministic safety gates, confidence scoring, and real-time monitoring via LangSmith.
+
+`LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB`
+:::
+
+::: {.project-card}
+### {{< fa solid bus >}} AI for Equitable Public Transportation
+**Deloitte** · Jan 2026 – Present
+
+Building predictive models with regression and time series forecasting (ARIMA) using Census, GTFS, and accessibility data to identify transit gaps, with simulation models and an interactive dashboard for equity-driven recommendations.
+
+`Python` `ARIMA` `Predictive Modeling` `Dashboard`
 :::
 
 :::

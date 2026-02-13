@@ -11,6 +11,17 @@ body {
 }
 
 /* --- Hero Section --- */
+.headshot {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 24%;
+  display: block;
+  margin: 0 auto 16px auto;
+  border: 2px solid rgba(0,0,0,0.08);
+}
+
 .hero-section {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #dbeafe 100%);
   padding: 5rem 2rem 4rem;
@@ -371,5 +382,59 @@ body {
 
   .connect-links .btn {
     width: 80%;
+  }
+}
+
+/* ---- Quick fixes for Quarto-wrapped markup (override only) ---- */
+section.section-title {
+  display: block !important;
+  border: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  margin: 0 0 20px 0 !important;
+}
+
+h1.section-title,
+h2.section-title,
+h3.section-title {
+  display: inline-block;
+}
+
+.hero-links,
+.connect-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero-links > p,
+.connect-links > p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+}
+
+.hero-links a,
+.connect-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .hero-links,
+  .connect-links,
+  .hero-links > p,
+  .connect-links > p {
+    gap: 10px;
+  }
+
+  .hero-links a,
+  .connect-links a {
+    width: 100%;
+    justify-content: center;
   }
 }

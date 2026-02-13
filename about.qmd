@@ -1,0 +1,44 @@
+---
+title: "About"
+toc: true
+---
+
+## Background
+
+I'm **Daniel Regalado Cardoso**, a Data Scientist and AI/ML Engineer originally from Guatemala, currently based in Coral Gables, FL. I'm pursuing a Master of Science in Business Analytics at the University of Miami Herbert Business School, where I maintain a 3.9 GPA.
+
+My journey spans chemical engineering, energy management, and now data science & AI — giving me a unique perspective that bridges technical depth with business strategy.
+
+## Education
+
+| Degree | Institution | Year |
+|--------|-----------|------|
+| **MS Business Analytics** | University of Miami Herbert Business School | May 2026 |
+| **MS Energy Business Management** | Universidad del Valle de Guatemala | June 2025 |
+| **BS Chemical Industrial Engineering** | Universidad del Valle de Guatemala | Nov 2023 |
+
+## Technical Skills
+
+### Programming & Data
+Python (pandas, NumPy, scikit-learn), SQL, R, Snowflake, Databricks
+
+### Machine Learning & AI
+Supervised Learning, Deep Learning, Neural Networks, Feature Engineering, LLMs, RAG, Multi-Agent Systems, NLP, Time Series (ARIMA), Embeddings, Prompt Engineering
+
+### Analytics & Visualization
+Power BI, Tableau, Advanced Excel, Statistical Analysis, Data Visualization, A/B Testing
+
+### AI & Cloud Tools
+LangChain, LangGraph, LangSmith, OpenAI API, Anthropic Claude, Google Cloud Platform (GCP), ChromaDB, Hugging Face, MLflow, Docker, Git
+
+### Languages
+English (Fluent) · Spanish (Native)
+
+## Certifications
+
+- Neural Networks and Deep Learning (DeepLearning.AI)
+- MCP: Build Rich-Context AI Apps (Anthropic)
+- LangChain Foundations (LangChain)
+- AI/ML and LLM Engineering, 25+ Courses (DataCamp)
+- ISO 50001 Internal Auditor
+- Scrum Fundamentals Certified

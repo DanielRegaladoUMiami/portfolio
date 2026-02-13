@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Daniel Regalado Cardoso"
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b
+        target: _blank
+      - icon: github
+        href: https://github.com/DanielRegaladoUMiami
+        target: _blank
+      - icon: envelope
+        href: mailto:dxr1491@miami.edu
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+    page-layout: full

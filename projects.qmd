@@ -1,0 +1,35 @@
+---
+title: "Projects"
+toc: true
+---
+
+## UHealth Bascom Palmer Eye Institute — AI Scheduling Assistant
+**Sep 2025 – Present**
+
+Built a multi-agent LLM chatbot using **LangGraph**, **LangChain**, and **GPT-4 Turbo** to automate patient scheduling across 100+ providers. The system implements:
+
+- **Retrieval-Augmented Generation (RAG)** with ChromaDB for provider knowledge
+- **Deterministic safety gates** to ensure scheduling accuracy
+- **Confidence scoring** for intelligent fallback routing
+- **Real-time monitoring** via LangSmith
+
+`LangGraph` `LangChain` `GPT-4 Turbo` `RAG` `ChromaDB` `LangSmith`
+
+---
+
+## Deloitte — AI for Equitable Public Transportation
+**Jan 2026 – Present**
+
+Building predictive models to identify transit gaps and promote equitable public transportation access:
+
+- **Regression and time series forecasting** (ARIMA) using Census, GTFS, and accessibility data
+- **Simulation models** for scenario planning
+- **Interactive dashboard** for equity-driven recommendations to policymakers
+
+`Python` `ARIMA` `Time Series` `Census Data` `GTFS` `Dashboard`
+
+---
+
+## More Coming Soon
+
+I'm constantly working on new projects at the intersection of AI, data science, and business analytics. Check back here or connect with me on [GitHub](https://github.com/DanielRegaladoUMiami){target="_blank"} for the latest.

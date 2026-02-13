@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Daniel Regalado Cardoso, a Data Scientist and AI/ML Engineer originally from Guatemala, currently based in Coral Gables, FL. I’m pursuing a Master of Science in Business Analytics at the University of Miami Herbert Business School, where I maintain a 3.9 GPA.\nMy journey spans chemical engineering, energy management, and now data science & AI — giving me a unique perspective that bridges technical depth with business strategy."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I’m Daniel Regalado Cardoso, a Data Scientist and AI/ML Engineer originally from Guatemala, currently based in Coral Gables, FL. I’m pursuing a Master of Science in Business Analytics at the University of Miami Herbert Business School, where I maintain a 3.9 GPA.\nMy journey spans chemical engineering, energy management, and now data science & AI — giving me a unique perspective that bridges technical depth with business strategy."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nMS Business Analytics\nUniversity of Miami Herbert Business School\nMay 2026\n\n\nMS Energy Business Management\nUniversidad del Valle de Guatemala\nJune 2025\n\n\nBS Chemical Industrial Engineering\nUniversidad del Valle de Guatemala\nNov 2023"
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming & Data\nPython (pandas, NumPy, scikit-learn), SQL, R, Snowflake, Databricks\n\n\nMachine Learning & AI\nSupervised Learning, Deep Learning, Neural Networks, Feature Engineering, LLMs, RAG, Multi-Agent Systems, NLP, Time Series (ARIMA), Embeddings, Prompt Engineering\n\n\nAnalytics & Visualization\nPower BI, Tableau, Advanced Excel, Statistical Analysis, Data Visualization, A/B Testing\n\n\nAI & Cloud Tools\nLangChain, LangGraph, LangSmith, OpenAI API, Anthropic Claude, Google Cloud Platform (GCP), ChromaDB, Hugging Face, MLflow, Docker, Git\n\n\nLanguages\nEnglish (Fluent) · Spanish (Native)"
+  },
+  {
+    "objectID": "about.html#certifications",
+    "href": "about.html#certifications",
+    "title": "About",
+    "section": "Certifications",
+    "text": "Certifications\n\nNeural Networks and Deep Learning (DeepLearning.AI)\nMCP: Build Rich-Context AI Apps (Anthropic)\nLangChain Foundations (LangChain)\nAI/ML and LLM Engineering, 25+ Courses (DataCamp)\nISO 50001 Internal Auditor\nScrum Fundamentals Certified"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Sep 2025 – Present\nBuilt a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. The system implements:\n\nRetrieval-Augmented Generation (RAG) with ChromaDB for provider knowledge\nDeterministic safety gates to ensure scheduling accuracy\nConfidence scoring for intelligent fallback routing\nReal-time monitoring via LangSmith\n\nLangGraph LangChain GPT-4 Turbo RAG ChromaDB LangSmith"
+  },
+  {
+    "objectID": "projects.html#uhealth-bascom-palmer-eye-institute-ai-scheduling-assistant",
+    "href": "projects.html#uhealth-bascom-palmer-eye-institute-ai-scheduling-assistant",
+    "title": "Projects",
+    "section": "",
+    "text": "Sep 2025 – Present\nBuilt a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. The system implements:\n\nRetrieval-Augmented Generation (RAG) with ChromaDB for provider knowledge\nDeterministic safety gates to ensure scheduling accuracy\nConfidence scoring for intelligent fallback routing\nReal-time monitoring via LangSmith\n\nLangGraph LangChain GPT-4 Turbo RAG ChromaDB LangSmith"
+  },
+  {
+    "objectID": "projects.html#deloitte-ai-for-equitable-public-transportation",
+    "href": "projects.html#deloitte-ai-for-equitable-public-transportation",
+    "title": "Projects",
+    "section": "Deloitte — AI for Equitable Public Transportation",
+    "text": "Deloitte — AI for Equitable Public Transportation\nJan 2026 – Present\nBuilding predictive models to identify transit gaps and promote equitable public transportation access:\n\nRegression and time series forecasting (ARIMA) using Census, GTFS, and accessibility data\nSimulation models for scenario planning\nInteractive dashboard for equity-driven recommendations to policymakers\n\nPython ARIMA Time Series Census Data GTFS Dashboard"
+  },
+  {
+    "objectID": "projects.html#more-coming-soon",
+    "href": "projects.html#more-coming-soon",
+    "title": "Projects",
+    "section": "More Coming Soon",
+    "text": "More Coming Soon\nI’m constantly working on new projects at the intersection of AI, data science, and business analytics. Check back here or connect with me on GitHub for the latest."
+  }
+]

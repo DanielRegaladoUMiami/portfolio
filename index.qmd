@@ -1,0 +1,146 @@
+---
+pagetitle: "Daniel Regalado Cardoso"
+page-layout: custom
+section-divs: false
+toc: false
+css: styles.css
+---
+
+::: {.hero-section}
+
+::: {.hero-content}
+
+# Daniel Regalado Cardoso {.hero-name}
+
+### Data Scientist & AI/ML Engineer {.hero-title}
+
+MS Business Analytics @ University of Miami · MS Energy Business Management · BS Chemical Engineering
+
+::: {.hero-tagline}
+Building LLM applications, multi-agent AI systems, and predictive analytics solutions.
+:::
+
+::: {.hero-links}
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-outline-primary .btn-lg target="_blank"}
+[{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
+[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-secondary .btn-lg target="_blank"}
+[{{< fa solid file-arrow-down >}} Resume](Daniel_Regalado_Resume.pdf){.btn .btn-primary .btn-lg target="_blank"}
+:::
+
+:::
+
+:::
+
+
+::: {.section-container}
+
+## About Me {.section-title}
+
+::: {.about-grid}
+
+::: {.about-text}
+I'm a Data Scientist and AI/ML Engineer currently pursuing a **Master of Science in Business Analytics** at the **University of Miami Herbert Business School** (GPA: 3.9/4.0). I also hold a Master's in Energy Business Management and a Bachelor's in Chemical Industrial Engineering from Universidad del Valle de Guatemala.
+
+I specialize in building **Large Language Model (LLM) applications**, **multi-agent AI systems**, and **predictive analytics solutions**. My work sits at the intersection of data science, business strategy, and AI engineering.
+
+I'm fluent in English and Spanish, and I bring experience from companies like **The Central America Bottling Corp (CBC)**, **AB InBev (Ambev)**, and **Spectrum**, as well as collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**.
+:::
+
+::: {.about-skills}
+
+#### Core Skills
+
+- **AI/ML:** LLMs, RAG, Multi-Agent Systems, Deep Learning, NLP
+- **Data:** Python, SQL, R, Snowflake, Databricks
+- **Viz:** Power BI, Tableau, Advanced Excel
+- **Cloud & Tools:** LangChain, LangGraph, OpenAI API, Anthropic Claude, GCP, Docker, Git
+- **Languages:** English (Fluent) · Spanish (Native)
+
+:::
+
+:::
+
+:::
+
+
+::: {.section-container .section-alt}
+
+## Featured Projects {.section-title}
+
+::: {.projects-grid}
+
+::: {.project-card}
+### 🏥 AI Scheduling Assistant
+**UHealth Bascom Palmer Eye Institute** · Sep 2025 – Present
+
+Built a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. Implemented RAG with ChromaDB, deterministic safety gates, confidence scoring, and real-time monitoring via LangSmith.
+
+`LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB`
+:::
+
+::: {.project-card}
+### 🚌 AI for Equitable Public Transportation
+**Deloitte** · Jan 2026 – Present
+
+Building predictive models with regression and time series forecasting (ARIMA) using Census, GTFS, and accessibility data to identify transit gaps, with simulation models and an interactive dashboard for equity-driven recommendations.
+
+`Python` `ARIMA` `Predictive Modeling` `Dashboard`
+:::
+
+:::
+
+:::
+
+
+::: {.section-container}
+
+## Experience {.section-title}
+
+::: {.timeline}
+
+::: {.timeline-item}
+#### The Central America Bottling Corp (CBC)
+**Commercial Assets Analyst** · Jul 2024 – Jan 2025
+
+Managed end-to-end strategy for commercial assets. Built advanced dashboards and automated reporting. Developed customer segmentation and credit optimization strategies.
+
+**Trade Marketing Administrative** · May 2023 – Jun 2024
+
+Oversaw and executed a $5.2M+ Trade Marketing budget. Built performance dashboards to track KPIs across retail channels.
+:::
+
+::: {.timeline-item}
+#### Spectrum
+**Market Analysis Executive** · Aug 2022 – Jan 2023
+
+Conducted market research and statistical analysis; produced executive reports to guide data-driven strategic decisions.
+:::
+
+::: {.timeline-item}
+#### Ambev Central America (AB InBev)
+**Revenue Intern** · Jan 2022 – Jul 2022
+
+Built predictive models and automated dashboards for pricing optimization and competitor tracking across national markets.
+:::
+
+:::
+
+:::
+
+
+::: {.section-container .section-alt}
+
+## Let's Connect {.section-title}
+
+::: {.connect-section}
+I'm actively looking for opportunities in **Data Science**, **AI/ML Engineering**, and **Business Analytics**. If you're working on something interesting or want to chat, let's connect!
+
+::: {.connect-links}
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
+[{{< fa solid envelope >}} dxr1491@miami.edu](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
+[{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
+:::
+
+:::
+
+:::

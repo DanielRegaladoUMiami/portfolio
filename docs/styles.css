@@ -1,0 +1,375 @@
+/* ============================================
+   Daniel Regalado Cardoso — Personal Site
+   Light & Clean Design
+   ============================================ */
+
+/* --- Global --- */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #2d3748;
+  line-height: 1.7;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #dbeafe 100%);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-name {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #1a202c;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #4a5568;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.hero-section > .hero-content > p {
+  color: #718096;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.hero-tagline {
+  color: #4a5568;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.hero-links .btn {
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.hero-links .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero-links .btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.hero-links .btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.hero-links .btn-outline-primary {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+.hero-links .btn-outline-primary:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.hero-links .btn-outline-dark {
+  color: #1a202c;
+  border-color: #1a202c;
+}
+
+.hero-links .btn-outline-dark:hover {
+  background-color: #1a202c;
+  color: #fff;
+}
+
+.hero-links .btn-outline-secondary {
+  color: #6b7280;
+  border-color: #6b7280;
+}
+
+.hero-links .btn-outline-secondary:hover {
+  background-color: #6b7280;
+  color: #fff;
+}
+
+/* --- Section Containers --- */
+.section-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem;
+}
+
+.section-alt {
+  background-color: #f8fafc;
+  max-width: 100%;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.section-alt > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #2563eb;
+  display: inline-block;
+}
+
+/* --- About Grid --- */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-skills {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.about-skills h4 {
+  margin-top: 0;
+  color: #2563eb;
+  font-size: 1.1rem;
+}
+
+.about-skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-skills li {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.about-skills li:last-child {
+  border-bottom: none;
+}
+
+/* --- Projects Grid --- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.8rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  border-color: #2563eb;
+}
+
+.project-card h3 {
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  color: #1a202c;
+}
+
+.project-card p:first-of-type {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 0.8rem;
+}
+
+.project-card p:last-of-type {
+  font-size: 0.8rem;
+  color: #2563eb;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+/* --- Timeline --- */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #2563eb, #93c5fd);
+  border-radius: 3px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.35rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  background: #2563eb;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #2563eb;
+}
+
+.timeline-item h4 {
+  margin-bottom: 0.3rem;
+  color: #1a202c;
+  font-size: 1.1rem;
+}
+
+/* --- Connect Section --- */
+.connect-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.connect-section > p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.connect-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.connect-links .btn {
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.connect-links .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.connect-links .btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.connect-links .btn-outline-primary {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+.connect-links .btn-outline-primary:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.connect-links .btn-outline-dark {
+  color: #1a202c;
+  border-color: #1a202c;
+}
+
+.connect-links .btn-outline-dark:hover {
+  background-color: #1a202c;
+  color: #fff;
+}
+
+/* --- Navbar --- */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.1rem;
+  }
+
+  .hero-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-links .btn {
+    width: 80%;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-container {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .connect-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .connect-links .btn {
+    width: 80%;
+  }
+}

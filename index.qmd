@@ -12,7 +12,7 @@ css: styles.css
 
 # Daniel Regalado Cardoso {.hero-name}
 
-### Data Scientist & AI/ML Engineer {.hero-title}
+### Data Scientist · AI/ML Engineer · Business Analyst · Data Analyst {.hero-title}
 
 MS Business Analytics @ University of Miami · MS Energy Business Management · BS Chemical Engineering
 

@@ -120,77 +120,71 @@ Universidad del Valle de Guatemala
 
 ## Experience {.section-title}
 
-::: {.exp-grouped-grid}
+::: {.exp-flow}
 
-::: {.exp-grouped-card}
-::: {.exp-company-header}
-The Central America Bottling Corp (CBC)
-:::
-
-::: {.exp-role-row}
-::: {.exp-role}
+::: {.exp-flow-item}
+::: {.exp-flow-role}
 Commercial Assets Analyst
 :::
-::: {.exp-date}
-Jul 2024 – Jan 2025
+::: {.exp-flow-company}
+CBC (PepsiCo)
+:::
+::: {.exp-flow-date}
+2024 – 2025
 :::
 :::
 
-::: {.exp-role-row}
-::: {.exp-role}
-Trade Marketing Administrative
+::: {.exp-flow-item}
+::: {.exp-flow-role}
+Trade Marketing Admin
 :::
-::: {.exp-date}
-May 2023 – Jun 2024
+::: {.exp-flow-company}
+CBC (PepsiCo)
+:::
+::: {.exp-flow-date}
+2023 – 2024
 :::
 :::
 
-::: {.exp-role-row}
-::: {.exp-role}
+::: {.exp-flow-item}
+::: {.exp-flow-role}
 Commercial Processes Intern
 :::
-::: {.exp-date}
-Feb 2023 – Apr 2023
+::: {.exp-flow-company}
+CBC (PepsiCo)
+:::
+::: {.exp-flow-date}
+2023
 :::
 :::
 
-:::
-
-::: {.exp-grouped-card}
-::: {.exp-company-header}
-Spectrum
-:::
-
-::: {.exp-role-row}
-::: {.exp-role}
+::: {.exp-flow-item}
+::: {.exp-flow-role}
 Market Analysis Executive
 :::
-::: {.exp-date}
-Aug 2022 – Jan 2023
+::: {.exp-flow-company}
+Spectrum
+:::
+::: {.exp-flow-date}
+2022 – 2023
 :::
 :::
 
-:::
-
-::: {.exp-grouped-card}
-::: {.exp-company-header}
-Ambev Central America (AB InBev)
-:::
-
-::: {.exp-role-row}
-::: {.exp-role}
+::: {.exp-flow-item}
+::: {.exp-flow-role}
 Revenue Intern
 :::
-::: {.exp-date}
-Jan 2022 – Jul 2022
+::: {.exp-flow-company}
+Ambev (AB InBev)
+:::
+::: {.exp-flow-date}
+2022
 :::
 :::
 
 :::
 
-:::
-
-::: {style="text-align: right; margin-top: 1rem;"}
+::: {style="text-align: right; margin-top: 1.25rem;"}
 [More details →](about.html){style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 500;"}
 :::
 

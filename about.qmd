@@ -223,6 +223,8 @@ Universidad del Valle de Guatemala
 
 ## Certifications {.section-title}
 
+#### AI & Machine Learning
+
 ::: {.cert-list}
 
 ::: {.cert-item}
@@ -230,23 +232,103 @@ Universidad del Valle de Guatemala
 :::
 
 ::: {.cert-item}
-{{< fa solid certificate >}} &nbsp; **MCP: Build Rich-Context AI Apps** — Anthropic
+{{< fa solid certificate >}} &nbsp; **MCP: Build Rich-Context AI Apps with Anthropic** — DeepLearning.AI
 :::
 
 ::: {.cert-item}
-{{< fa solid certificate >}} &nbsp; **LangChain Foundations** — LangChain
+{{< fa solid certificate >}} &nbsp; **Introduction to LangChain (Python)** — LangChain
 :::
 
 ::: {.cert-item}
-{{< fa solid certificate >}} &nbsp; **AI/ML & LLM Engineering, 25+ Courses** — DataCamp
+{{< fa solid certificate >}} &nbsp; **Developing AI Applications** — DataCamp
 :::
 
 ::: {.cert-item}
-{{< fa solid certificate >}} &nbsp; **ISO 50001 Internal Auditor**
+{{< fa solid certificate >}} &nbsp; **Multi-Agent Systems with LangGraph** — DataCamp
 :::
 
 ::: {.cert-item}
-{{< fa solid certificate >}} &nbsp; **Scrum Fundamentals Certified**
+{{< fa solid certificate >}} &nbsp; **Developing Applications with LangChain** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Prompt Engineering with the OpenAI API** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Introduction to Embeddings with the OpenAI API** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Working with Hugging Face** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **LLMOps Concepts** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **AI Ethics** — DataCamp
+:::
+
+:::
+
+#### Data & Cloud
+
+::: {.cert-list}
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **GitHub Foundations** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Snowflake Foundations** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Intermediate SQL** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Data Analytics in Power BI** — Coursera
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Statistical Methods for Six Sigma with R** — UVG
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Excel/VBA for Creative Problem Solving** — University of Colorado
+:::
+
+:::
+
+#### Business & Strategy
+
+::: {.cert-list}
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Business Growth Strategy** — UVA Darden School of Business
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Advanced Business Strategy** — UVA Darden School of Business
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Retail Marketing Strategy** — Wharton Online
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Data-Driven Process Improvement** — University at Buffalo
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **ISO 50001 Internal Auditor** — SGS
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Scrum Fundamentals Certified** — VMEdu
 :::
 
 :::

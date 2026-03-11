@@ -638,6 +638,11 @@ h4.section-title {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.cert-list + h4 {
+  margin-top: 0.5rem;
 }
 
 .cert-item {

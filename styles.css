@@ -309,12 +309,21 @@ code {
   max-width: 100%;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .section-alt > * {
   max-width: 860px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Ensure section-alt containers use proper padding */
+.section-container.section-alt {
+  max-width: 100%;
+  padding-left: calc(max(2rem, (100% - 860px) / 2));
+  padding-right: calc(max(2rem, (100% - 860px) / 2));
 }
 
 /* Section Headings — minimal, no underlines */

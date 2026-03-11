@@ -161,9 +161,26 @@ code {
   font-style: italic;
   color: var(--text-muted) !important;
   margin-top: 0 !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.75rem !important;
   letter-spacing: 0 !important;
   animation: fadeUp 0.7s var(--ease) 0.15s both;
+}
+
+.hero-currently {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--accent-blue);
+  background: var(--accent-blue-soft);
+  padding: 0.35rem 1rem;
+  border-radius: 100px;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.01em;
+  animation: fadeUp 0.7s var(--ease) 0.2s both;
+}
+
+.hero-currently p {
+  margin: 0;
 }
 
 .hero-section > .hero-content > p {
@@ -182,7 +199,7 @@ code {
   color: var(--text-secondary) !important;
   margin-bottom: 2.5rem !important;
   line-height: 1.6;
-  animation: fadeUp 0.7s var(--ease) 0.25s both;
+  animation: fadeUp 0.7s var(--ease) 0.3s both;
 }
 
 /* ── Buttons ─────────────────────────────── */
@@ -192,7 +209,7 @@ code {
   flex-wrap: wrap;
   gap: 0.65rem !important;
   justify-content: center;
-  animation: fadeUp 0.7s var(--ease) 0.35s both;
+  animation: fadeUp 0.7s var(--ease) 0.4s both;
 }
 
 .hero-links > p,
@@ -746,6 +763,11 @@ h4.section-title {
 .section-container {
   animation: fadeUp 0.6s var(--ease) 0.15s both;
 }
+
+.section-container:nth-child(2) { animation-delay: 0.2s; }
+.section-container:nth-child(3) { animation-delay: 0.25s; }
+.section-container:nth-child(4) { animation-delay: 0.3s; }
+.section-container:nth-child(5) { animation-delay: 0.35s; }
 
 /* ── About page header ───────────────────── */
 .about-header {

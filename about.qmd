@@ -183,7 +183,7 @@ GPA: 3.9/4.0
 :::
 
 ::: {.edu-card}
-![](assets/uvg-logo.jpg){.edu-logo alt="Universidad del Valle de Guatemala"}
+![](assets/uvg-logo.png){.edu-logo alt="Universidad del Valle de Guatemala"}
 
 ::: {.degree}
 MS Energy Business Management
@@ -200,7 +200,7 @@ Ranked 2nd of 16 graduates
 :::
 
 ::: {.edu-card}
-![](assets/uvg-logo.jpg){.edu-logo alt="Universidad del Valle de Guatemala"}
+![](assets/uvg-logo.png){.edu-logo alt="Universidad del Valle de Guatemala"}
 
 ::: {.degree}
 BS Chemical Industrial Engineering

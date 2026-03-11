@@ -598,6 +598,16 @@ h4.section-title {
   padding: 1.6rem;
 }
 
+.edu-card .edu-logo,
+.edu-card img.edu-logo {
+  height: 40px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  display: block;
+}
+
 .edu-card .degree {
   font-weight: 600;
   font-size: 1rem;

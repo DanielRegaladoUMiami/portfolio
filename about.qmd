@@ -21,7 +21,7 @@ Data Scientist and AI/ML Engineer based in Miami, originally from **Guatemala**.
 
 Currently pursuing my **MS in Business Analytics** at the University of Miami Herbert Business School (GPA 3.9/4.0). I also hold an MS in Energy Business Management and a BS in Chemical Industrial Engineering from **Universidad del Valle de Guatemala**.
 
-Fluent in English and Spanish, with experience at **CBC (PepsiCo bottler)**, **AB InBev**, **Spectrum**, and collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**. Passionate about Mayan language preservation through NLP.
+Fluent in English and Spanish, with experience at **CBC (PepsiCo bottler)**, **AB InBev**, **Spectrum**, and collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**.
 :::
 
 :::
@@ -99,7 +99,7 @@ GCP, Docker, Git, GitHub Actions, Railway, Azure, MLflow, Hugging Face, n8n
 
 #### Languages
 
-English (Fluent) · Spanish (Native) · Mayan Language NLP Research
+English (Fluent) · Spanish (Native)
 :::
 
 :::
@@ -122,14 +122,21 @@ Where I've worked.
 #### The Central America Bottling Corp (CBC)
 **Commercial Assets Analyst** · Jul 2024 – Jan 2025
 
-Managed end-to-end strategy for commercial assets across multi-country operations (Guatemala, Honduras, El Salvador, Nicaragua). Built advanced dashboards, automated reporting systems, and developed customer segmentation and credit optimization strategies for PepsiCo brands.
+Managed end-to-end strategy for commercial assets, including returnable bottles and refrigeration equipment, improving sales performance and operational efficiency. Built advanced dashboards and automated reporting to monitor asset performance and support data-driven product launch decisions. Developed customer segmentation and credit optimization strategies to improve asset allocation across key retail markets.
 :::
 
 ::: {.timeline-item}
 #### The Central America Bottling Corp (CBC)
 **Trade Marketing Administrative** · May 2023 – Jun 2024
 
-Oversaw and executed a $5.2M+ Trade Marketing budget across retail channels. Built performance dashboards to track KPIs, managed promotional campaigns, and coordinated cross-functional teams.
+Oversaw and executed a $5.2M+ Trade Marketing budget, aligning OPEX and CAPEX with commercial priorities. Built performance dashboards to track KPIs and optimize marketing resource allocation across retail channels.
+:::
+
+::: {.timeline-item}
+#### The Central America Bottling Corp (CBC)
+**Commercial Processes Intern** · Feb 2023 – Apr 2023
+
+Developed KPI dashboards for the global World Class Sales program, enabling real-time sales performance visibility.
 :::
 
 ::: {.timeline-item}
@@ -159,6 +166,8 @@ Built predictive models and automated dashboards for pricing optimization and co
 ::: {.education-grid}
 
 ::: {.edu-card}
+![](assets/um-logo.png){.edu-logo alt="University of Miami"}
+
 ::: {.degree}
 MS Business Analytics
 :::
@@ -174,6 +183,8 @@ GPA: 3.9/4.0
 :::
 
 ::: {.edu-card}
+![](assets/uvg-logo.jpg){.edu-logo alt="Universidad del Valle de Guatemala"}
+
 ::: {.degree}
 MS Energy Business Management
 :::
@@ -181,11 +192,16 @@ MS Energy Business Management
 Universidad del Valle de Guatemala
 :::
 ::: {.year}
-2022 – 2023
+2022 – 2025
+:::
+::: {.gpa}
+Ranked 2nd of 16 graduates
 :::
 :::
 
 ::: {.edu-card}
+![](assets/uvg-logo.jpg){.edu-logo alt="Universidad del Valle de Guatemala"}
+
 ::: {.degree}
 BS Chemical Industrial Engineering
 :::
@@ -193,7 +209,7 @@ BS Chemical Industrial Engineering
 Universidad del Valle de Guatemala
 :::
 ::: {.year}
-2017 – 2021
+2017 – 2023
 :::
 :::
 

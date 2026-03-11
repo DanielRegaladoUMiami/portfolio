@@ -50,22 +50,12 @@ ASA South Florida Student Data Challenge — Top 10% for HDL cholesterol predict
 
 ::: {.award-card}
 ::: {.award-year}
-February 2026
+2025
 :::
 
-#### Speaker — MAIIC
+#### 2nd Place — MS Energy Business Management
 
-Presented at the 1st Miami AI & Innovation Conference at the University of Miami on enterprise AI and LLM applications in Latin America.
-:::
-
-::: {.award-card}
-::: {.award-year}
-2025 – 2026
-:::
-
-#### MSBA — GPA 3.9/4.0
-
-University of Miami Herbert Business School. Coursework in deep learning, time series, supply chain analytics, and NLP.
+Ranked 2nd out of 16 graduates in the Master of Science in Energy Business Management program at Universidad del Valle de Guatemala.
 :::
 
 :::

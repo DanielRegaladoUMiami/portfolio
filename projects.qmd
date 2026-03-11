@@ -149,21 +149,6 @@ Supply chain network design and optimization for CanDi, applying analytical mode
 [{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/CanDi-Supply-Chain-Design){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
-::: {.project-card}
-### {{< fa solid language >}} Mayan Language NLP {#mayan-nlp}
-
-::: {.project-org-label}
-Research — Cultural Preservation
-:::
-::: {.project-date-label}
-2024 – Present
-:::
-
-Fine-tuned Llama 3 with QLoRA (via Unsloth) on a 43,000+ example dataset spanning 12–15 Mayan languages, including critically endangered ones like Tektiteko. Published dataset on Hugging Face. Targeting AmericasNLP 2026 for academic publication.
-
-`Llama 3` `QLoRA` `Unsloth` `Hugging Face` `Low-Resource NLP`
-:::
-
 :::
 
 :::

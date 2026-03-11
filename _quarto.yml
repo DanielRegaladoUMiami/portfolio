@@ -4,7 +4,17 @@ project:
 
 website:
   title: "Daniel Regalado Cardoso"
-  favicon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>"
+  favicon: assets/favicon.png
+  site-url: https://danielregaladoumiami.github.io/portfolio/
+  description: "Data Scientist & AI/ML Engineer — turning complex data into actionable solutions."
+  open-graph:
+    title: "Daniel Regalado Cardoso — Data Scientist & AI/ML Engineer"
+    description: "Building LLM applications, multi-agent AI systems, and predictive models that drive real business impact."
+    image: assets/headshot.jpg
+  twitter-card:
+    title: "Daniel Regalado Cardoso — Data Scientist & AI/ML Engineer"
+    description: "Building LLM applications, multi-agent AI systems, and predictive models that drive real business impact."
+    image: assets/headshot.jpg
   navbar:
     background: light
     pinned: true

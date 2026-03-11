@@ -10,7 +10,7 @@ css: styles.css
 
 ::: {.hero-content}
 
-![](assets/headshot.png){.headshot alt="Daniel Regalado"}
+![](assets/headshot.jpg){.headshot alt="Daniel Regalado"}
 
 # Daniel Regalado Cardoso {.hero-name}
 

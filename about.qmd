@@ -10,7 +10,7 @@ css: styles.css
 
 ::: {.about-header}
 
-![](assets/headshot.png){alt="Daniel Regalado"}
+![](assets/headshot.jpg){alt="Daniel Regalado"}
 
 ::: {.about-header-text}
 

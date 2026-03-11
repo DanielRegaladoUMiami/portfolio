@@ -65,6 +65,140 @@ Ranked 2nd out of 16 graduates in the Master of Science in Energy Business Manag
 
 ::: {.section-container .section-alt}
 
+## Education {.section-title}
+
+::: {.edu-compact-grid}
+
+::: {.edu-compact-card}
+![](assets/um-logo.png){alt="University of Miami"}
+
+::: {.edu-degree}
+MS Business Analytics
+:::
+::: {.edu-school}
+University of Miami — Herbert Business School
+:::
+::: {.edu-year}
+2025 – 2026
+:::
+:::
+
+::: {.edu-compact-card}
+![](assets/uvg-logo.png){alt="Universidad del Valle de Guatemala"}
+
+::: {.edu-degree}
+MS Energy Business Management
+:::
+::: {.edu-school}
+Universidad del Valle de Guatemala
+:::
+::: {.edu-year}
+2022 – 2025
+:::
+:::
+
+::: {.edu-compact-card}
+![](assets/uvg-logo.png){alt="Universidad del Valle de Guatemala"}
+
+::: {.edu-degree}
+BS Chemical Industrial Engineering
+:::
+::: {.edu-school}
+Universidad del Valle de Guatemala
+:::
+::: {.edu-year}
+2017 – 2023
+:::
+:::
+
+:::
+
+:::
+
+
+::: {.section-container}
+
+## Experience {.section-title}
+
+::: {.exp-grouped-grid}
+
+::: {.exp-grouped-card}
+::: {.exp-company-header}
+The Central America Bottling Corp (CBC)
+:::
+
+::: {.exp-role-row}
+::: {.exp-role}
+Commercial Assets Analyst
+:::
+::: {.exp-date}
+Jul 2024 – Jan 2025
+:::
+:::
+
+::: {.exp-role-row}
+::: {.exp-role}
+Trade Marketing Administrative
+:::
+::: {.exp-date}
+May 2023 – Jun 2024
+:::
+:::
+
+::: {.exp-role-row}
+::: {.exp-role}
+Commercial Processes Intern
+:::
+::: {.exp-date}
+Feb 2023 – Apr 2023
+:::
+:::
+
+:::
+
+::: {.exp-grouped-card}
+::: {.exp-company-header}
+Spectrum
+:::
+
+::: {.exp-role-row}
+::: {.exp-role}
+Market Analysis Executive
+:::
+::: {.exp-date}
+Aug 2022 – Jan 2023
+:::
+:::
+
+:::
+
+::: {.exp-grouped-card}
+::: {.exp-company-header}
+Ambev Central America (AB InBev)
+:::
+
+::: {.exp-role-row}
+::: {.exp-role}
+Revenue Intern
+:::
+::: {.exp-date}
+Jan 2022 – Jul 2022
+:::
+:::
+
+:::
+
+:::
+
+::: {style="text-align: right; margin-top: 1rem;"}
+[More details →](about.html){style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 500;"}
+:::
+
+:::
+
+
+::: {.section-container .section-alt}
+
 ## Recent Work {.section-title}
 
 ::: {.section-subtitle}

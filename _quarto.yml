@@ -1,11 +1,14 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Daniel Regalado Cardoso"
+  favicon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>"
   navbar:
     background: light
+    pinned: true
+    collapse-below: md
     left:
       - href: index.qmd
         text: Home
@@ -13,6 +16,20 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b
+        target: _blank
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/DanielRegaladoUMiami
+        target: _blank
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:dxr1491@miami.edu
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Daniel Regalado Cardoso"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b
@@ -26,7 +43,8 @@ website:
 format:
   html:
     theme:
-      light: flatly
-    css: styles.css
+      light: [cosmo, styles.css]
     toc: false
     page-layout: full
+    smooth-scroll: true
+    link-external-newwindow: true

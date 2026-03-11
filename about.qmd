@@ -1,44 +1,258 @@
 ---
-title: "About"
-toc: true
+pagetitle: "About — Daniel Regalado Cardoso"
+page-layout: custom
+section-divs: false
+toc: false
+css: styles.css
 ---
 
-## Background
+::: {.section-container}
 
-I'm **Daniel Regalado Cardoso**, a Data Scientist and AI/ML Engineer originally from Guatemala, currently based in Coral Gables, FL. I'm pursuing a Master of Science in Business Analytics at the University of Miami Herbert Business School, where I maintain a 3.9 GPA.
+::: {.about-header}
 
-My journey spans chemical engineering, energy management, and now data science & AI — giving me a unique perspective that bridges technical depth with business strategy.
+![](assets/headshot.png){alt="Daniel Regalado"}
 
-## Education
+::: {.about-header-text}
 
-| Degree | Institution | Year |
-|--------|-----------|------|
-| **MS Business Analytics** | University of Miami Herbert Business School | May 2026 |
-| **MS Energy Business Management** | Universidad del Valle de Guatemala | June 2025 |
-| **BS Chemical Industrial Engineering** | Universidad del Valle de Guatemala | Nov 2023 |
+# Daniel Regalado Cardoso
 
-## Technical Skills
+::: {.bio}
+Data Scientist and AI/ML Engineer based in Miami, originally from **Guatemala**. I work at the intersection of data science, business strategy, and AI engineering — building LLM applications, multi-agent systems, and predictive analytics solutions.
 
-### Programming & Data
-Python (pandas, NumPy, scikit-learn), SQL, R, Snowflake, Databricks
+Currently pursuing my **MS in Business Analytics** at the University of Miami Herbert Business School (GPA 3.9/4.0). I also hold an MS in Energy Business Management and a BS in Chemical Industrial Engineering from **Universidad del Valle de Guatemala**.
 
-### Machine Learning & AI
-Supervised Learning, Deep Learning, Neural Networks, Feature Engineering, LLMs, RAG, Multi-Agent Systems, NLP, Time Series (ARIMA), Embeddings, Prompt Engineering
+Fluent in English and Spanish, with experience at **CBC (PepsiCo bottler)**, **AB InBev**, **Spectrum**, and collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**. Passionate about Mayan language preservation through NLP.
+:::
 
-### Analytics & Visualization
-Power BI, Tableau, Advanced Excel, Statistical Analysis, Data Visualization, A/B Testing
+:::
 
-### AI & Cloud Tools
-LangChain, LangGraph, LangSmith, OpenAI API, Anthropic Claude, Google Cloud Platform (GCP), ChromaDB, Hugging Face, MLflow, Docker, Git
+:::
 
-### Languages
-English (Fluent) · Spanish (Native)
+:::
 
-## Certifications
+<hr class="divider">
 
-- Neural Networks and Deep Learning (DeepLearning.AI)
-- MCP: Build Rich-Context AI Apps (Anthropic)
-- LangChain Foundations (LangChain)
-- AI/ML and LLM Engineering, 25+ Courses (DataCamp)
-- ISO 50001 Internal Auditor
-- Scrum Fundamentals Certified
+::: {.section-container}
+
+## Skills & Tools {.section-title}
+
+::: {.section-subtitle}
+What I work with.
+:::
+
+::: {.skills-grid}
+
+::: {.skill-card}
+::: {.skill-icon}
+🧠
+:::
+
+#### AI & Machine Learning
+
+LLMs, RAG, Multi-Agent Systems, Deep Learning, NLP, SHAP, CatBoost, XGBoost, LSTM, Time Series
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+🔗
+:::
+
+#### LLM Engineering
+
+LangChain, LangGraph, OpenAI API, Anthropic Claude, ChromaDB, LangSmith, MCP, Prompt Engineering
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+💻
+:::
+
+#### Programming & Data
+
+Python, SQL, R, Snowflake, Databricks, Pandas, Scikit-learn, PyTorch, NumPy
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+📊
+:::
+
+#### Visualization & BI
+
+Power BI, Tableau, Plotly, Matplotlib, Advanced Excel, Streamlit, A/B Testing
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+☁️
+:::
+
+#### Cloud & DevOps
+
+GCP, Docker, Git, GitHub Actions, Railway, Azure, MLflow, Hugging Face, n8n
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+🌐
+:::
+
+#### Languages
+
+English (Fluent) · Spanish (Native) · Mayan Language NLP Research
+:::
+
+:::
+
+:::
+
+<hr class="divider">
+
+::: {.section-container}
+
+## Experience {.section-title}
+
+::: {.section-subtitle}
+Where I've worked.
+:::
+
+::: {.timeline}
+
+::: {.timeline-item}
+#### The Central America Bottling Corp (CBC)
+**Commercial Assets Analyst** · Jul 2024 – Jan 2025
+
+Managed end-to-end strategy for commercial assets across multi-country operations (Guatemala, Honduras, El Salvador, Nicaragua). Built advanced dashboards, automated reporting systems, and developed customer segmentation and credit optimization strategies for PepsiCo brands.
+:::
+
+::: {.timeline-item}
+#### The Central America Bottling Corp (CBC)
+**Trade Marketing Administrative** · May 2023 – Jun 2024
+
+Oversaw and executed a $5.2M+ Trade Marketing budget across retail channels. Built performance dashboards to track KPIs, managed promotional campaigns, and coordinated cross-functional teams.
+:::
+
+::: {.timeline-item}
+#### Spectrum
+**Market Analysis Executive** · Aug 2022 – Jan 2023
+
+Conducted market research and statistical analysis for the energy sector. Produced executive reports and data-driven recommendations to guide strategic decisions.
+:::
+
+::: {.timeline-item}
+#### Ambev Central America (AB InBev)
+**Revenue Intern** · Jan 2022 – Jul 2022
+
+Built predictive models and automated dashboards for pricing optimization and competitor tracking across national markets. Supported revenue management strategies.
+:::
+
+:::
+
+:::
+
+<hr class="divider">
+
+::: {.section-container}
+
+## Education {.section-title}
+
+::: {.education-grid}
+
+::: {.edu-card}
+::: {.degree}
+MS Business Analytics
+:::
+::: {.school}
+University of Miami — Herbert Business School
+:::
+::: {.year}
+2025 – 2026
+:::
+::: {.gpa}
+GPA: 3.9/4.0
+:::
+:::
+
+::: {.edu-card}
+::: {.degree}
+MS Energy Business Management
+:::
+::: {.school}
+Universidad del Valle de Guatemala
+:::
+::: {.year}
+2022 – 2023
+:::
+:::
+
+::: {.edu-card}
+::: {.degree}
+BS Chemical Industrial Engineering
+:::
+::: {.school}
+Universidad del Valle de Guatemala
+:::
+::: {.year}
+2017 – 2021
+:::
+:::
+
+:::
+
+:::
+
+<hr class="divider">
+
+::: {.section-container}
+
+## Certifications {.section-title}
+
+::: {.cert-list}
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Neural Networks and Deep Learning** — DeepLearning.AI
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **MCP: Build Rich-Context AI Apps** — Anthropic
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **LangChain Foundations** — LangChain
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **AI/ML & LLM Engineering, 25+ Courses** — DataCamp
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **ISO 50001 Internal Auditor**
+:::
+
+::: {.cert-item}
+{{< fa solid certificate >}} &nbsp; **Scrum Fundamentals Certified**
+:::
+
+:::
+
+:::
+
+
+::: {.section-container}
+
+::: {.connect-section}
+
+::: {.connect-heading}
+Let's connect.
+:::
+
+I'm actively looking for opportunities in Data Science, AI/ML Engineering, and Business Analytics.
+
+::: {.connect-links}
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
+[{{< fa solid envelope >}} dxr1491@miami.edu](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
+:::
+
+:::
+
+:::

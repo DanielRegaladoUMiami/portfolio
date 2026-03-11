@@ -1,35 +1,190 @@
 ---
-title: "Projects"
-toc: true
+pagetitle: "Projects — Daniel Regalado Cardoso"
+page-layout: custom
+section-divs: false
+toc: false
+css: styles.css
 ---
 
-## UHealth Bascom Palmer Eye Institute — AI Scheduling Assistant
-**Sep 2025 – Present**
+::: {.section-container}
 
-Built a multi-agent LLM chatbot using **LangGraph**, **LangChain**, and **GPT-4 Turbo** to automate patient scheduling across 100+ providers. The system implements:
+## Capstone Projects {.section-title}
 
-- **Retrieval-Augmented Generation (RAG)** with ChromaDB for provider knowledge
-- **Deterministic safety gates** to ensure scheduling accuracy
-- **Confidence scoring** for intelligent fallback routing
-- **Real-time monitoring** via LangSmith
+::: {.section-subtitle}
+Industry partnerships.
+:::
 
-`LangGraph` `LangChain` `GPT-4 Turbo` `RAG` `ChromaDB` `LangSmith`
+::: {.projects-grid}
 
----
+::: {.project-card}
+### {{< fa solid building >}} AI for Equitable Public Transportation {#transit}
 
-## Deloitte — AI for Equitable Public Transportation
-**Jan 2026 – Present**
+::: {.project-org-label}
+Deloitte · University of Miami
+:::
+::: {.project-date-label}
+Jan 2026 – Present
+:::
 
-Building predictive models to identify transit gaps and promote equitable public transportation access:
+Building predictive models integrating Census ACS, GTFS, and ArcGIS data to identify transit equity gaps in Miami-Dade County. Sprint-based development with GitHub issue tracking, SHAP-based interpretability, simulation models, and an interactive dashboard for equity-driven policy recommendations.
 
-- **Regression and time series forecasting** (ARIMA) using Census, GTFS, and accessibility data
-- **Simulation models** for scenario planning
-- **Interactive dashboard** for equity-driven recommendations to policymakers
+`Python` `SHAP` `GTFS` `ArcGIS` `Census ACS`
 
-`Python` `ARIMA` `Time Series` `Census Data` `GTFS` `Dashboard`
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/CapstoneProject-AI-for-Equitable-Transportation){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
 
----
+::: {.project-card}
+### {{< fa solid robot >}} AI Scheduling Assistant {#bascom-palmer}
 
-## More Coming Soon
+::: {.project-org-label}
+UHealth Bascom Palmer Eye Institute · University of Miami
+:::
+::: {.project-date-label}
+Sep 2025 – Present
+:::
 
-I'm constantly working on new projects at the intersection of AI, data science, and business analytics. Check back here or connect with me on [GitHub](https://github.com/DanielRegaladoUMiami){target="_blank"} for the latest.
+Built a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. Implemented RAG with ChromaDB, deterministic safety gates, confidence scoring, and real-time monitoring via LangSmith. Multi-node architecture with Microsoft Copilot Studio frontend.
+
+`LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB` `Copilot Studio`
+:::
+
+:::
+
+:::
+
+<hr class="divider">
+
+::: {.section-container}
+
+## Featured Projects {.section-title}
+
+::: {.section-subtitle}
+Things I've built.
+:::
+
+::: {.projects-grid}
+
+::: {.project-card}
+### {{< fa solid heart-pulse >}} HDL Cholesterol Prediction {#hdl}
+
+::: {.project-org-label}
+ASA South Florida Data Challenge — Distinguished Achievement (Top 10%)
+:::
+::: {.project-date-label}
+2026
+:::
+
+Developed a CatBoost model on NHANES survey data achieving R² = 0.75 for predicting HDL cholesterol levels. Domain-guided feature engineering with SHAP analysis identified gender and waist circumference as top predictors. Presented at FIU Winner Showcase. Collaboration with Miguel Rocha.
+
+`CatBoost` `SHAP` `NHANES` `Feature Engineering`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/hdl-cholesterol-prediction){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid chart-line >}} DiagBoostTS {#diagboost}
+
+::: {.project-org-label}
+Personal Project — Python Library
+:::
+::: {.project-date-label}
+2025 – Present
+:::
+
+Iterative diagnostic boosting for time series forecasting. A systematic EDA → Stationarity → Decomposition → Features → Split → Model → Evaluate pipeline with editorial/minimal visual theme and modular architecture.
+
+`Python` `Time Series` `XGBoost` `SARIMA` `Library Design`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/diagboost-ts){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid chart-bar >}} Product Sales Forecasting {#sales-forecasting}
+
+::: {.project-org-label}
+MSBA @ University of Miami
+:::
+::: {.project-date-label}
+2026
+:::
+
+End-to-end time series forecasting of product sales — exploratory data analysis, 14 model families, and cross-validated model selection for optimal forecasting performance.
+
+`Python` `Time Series` `Cross-Validation` `EDA`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/product-sales-forecasting){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid star >}} Yelp Recommendation & Churn Prediction {#yelp}
+
+::: {.project-org-label}
+MAS 651 — Deep Learning Final Project
+:::
+::: {.project-date-label}
+2026
+:::
+
+Recommendation system and churn prediction model for Tampa Bay businesses using Yelp data. Deep learning approaches for user behavior modeling and business analytics.
+
+`Deep Learning` `Recommendation Systems` `Churn` `NLP`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/MAS651-Final-Project){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid truck >}} CanDi Supply Chain Network Design {#candi}
+
+::: {.project-org-label}
+MGT 642 — Supply Chain Analytics Final Project
+:::
+::: {.project-date-label}
+2026
+:::
+
+Supply chain network design and optimization for CanDi, applying analytical models for facility location, capacity planning, and logistics optimization.
+
+`Supply Chain` `Optimization` `Network Design` `Analytics`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/CanDi-Supply-Chain-Design){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid language >}} Mayan Language NLP {#mayan-nlp}
+
+::: {.project-org-label}
+Research — Cultural Preservation
+:::
+::: {.project-date-label}
+2024 – Present
+:::
+
+Fine-tuned Llama 3 with QLoRA (via Unsloth) on a 43,000+ example dataset spanning 12–15 Mayan languages, including critically endangered ones like Tektiteko. Published dataset on Hugging Face. Targeting AmericasNLP 2026 for academic publication.
+
+`Llama 3` `QLoRA` `Unsloth` `Hugging Face` `Low-Resource NLP`
+:::
+
+:::
+
+:::
+
+
+::: {.section-container}
+
+::: {.connect-section}
+
+::: {.connect-heading}
+Interested in collaborating?
+:::
+
+I'm always open to discussing new projects and opportunities.
+
+::: {.connect-links}
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
+[{{< fa solid envelope >}} dxr1491@miami.edu](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
+[{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
+:::
+
+:::
+
+:::

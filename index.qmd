@@ -14,19 +14,17 @@ css: styles.css
 
 # Daniel Regalado Cardoso {.hero-name}
 
-### Data Scientist · AI/ML Engineer · Business Analyst · Data Analyst {.hero-title}
-
-MS Business Analytics @ University of Miami · MS Energy Business Management · BS Chemical Engineering
+### Data Scientist · AI/ML Engineer · Business Analyst {.hero-title}
 
 ::: {.hero-tagline}
-Building LLM applications, multi-agent AI systems, and predictive analytics solutions.
+Building LLM applications, multi-agent AI systems, and predictive analytics solutions at the intersection of data science, business strategy, and engineering.
 :::
 
 ::: {.hero-links}
-[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-outline-primary .btn-lg target="_blank"}
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
 [{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
+[{{< fa solid file-arrow-down >}} Resume](Daniel_Regalado_Resume.pdf){.btn .btn-outline-primary .btn-lg target="_blank"}
 [{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-secondary .btn-lg target="_blank"}
-[{{< fa solid file-arrow-down >}} Resume](Daniel_Regalado_Resume.pdf){.btn .btn-primary .btn-lg target="_blank"}
 :::
 
 :::
@@ -36,64 +34,38 @@ Building LLM applications, multi-agent AI systems, and predictive analytics solu
 
 ::: {.section-container}
 
-## About Me {.section-title}
+## Recognition {.section-title}
 
-::: {.about-grid}
+::: {.awards-grid}
 
-::: {.about-text}
-I'm a Data Scientist and AI/ML Engineer currently pursuing a **Master of Science in Business Analytics** at the **University of Miami Herbert Business School** (GPA: 3.9/4.0). I also hold a Master's in Energy Business Management and a Bachelor's in Chemical Industrial Engineering from Universidad del Valle de Guatemala.
-
-I specialize in building **Large Language Model (LLM) applications**, **multi-agent AI systems**, and **predictive analytics solutions**. My work sits at the intersection of data science, business strategy, and AI engineering.
-
-I'm fluent in English and Spanish, and I bring experience from companies like **The Central America Bottling Corp (CBC)**, **AB InBev (Ambev)**, and **Spectrum**, as well as collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**.
+::: {.award-card}
+::: {.award-year}
+March 2026
 :::
 
-::: {.about-skills}
+#### Distinguished Achievement Award
 
-#### Core Skills
-
-- **AI/ML:** LLMs, RAG, Multi-Agent Systems, Deep Learning, NLP
-- **Data:** Python, SQL, R, Snowflake, Databricks
-- **Viz:** Power BI, Tableau, Advanced Excel
-- **Cloud & Tools:** LangChain, LangGraph, OpenAI API, Anthropic Claude, GCP, Docker, Git
-- **Languages:** English (Fluent) · Spanish (Native)
-
+ASA South Florida Student Data Challenge — Top 10% for HDL cholesterol prediction using NHANES data with CatBoost (R² = 0.75). Winner Showcase at FIU.
 :::
 
+::: {.award-card}
+::: {.award-year}
+February 2026
 :::
 
+#### Speaker — MAIIC
+
+Presented at the 1st Miami AI & Innovation Conference at the University of Miami on enterprise AI and LLM applications in Latin America.
 :::
 
-
-::: {.section-container}
-
-## Experience {.section-title}
-
-::: {.timeline}
-
-::: {.timeline-item}
-#### The Central America Bottling Corp (CBC)
-**Commercial Assets Analyst** · Jul 2024 – Jan 2025
-
-Managed end-to-end strategy for commercial assets. Built advanced dashboards and automated reporting. Developed customer segmentation and credit optimization strategies.
-
-**Trade Marketing Administrative** · May 2023 – Jun 2024
-
-Oversaw and executed a $5.2M+ Trade Marketing budget. Built performance dashboards to track KPIs across retail channels.
+::: {.award-card}
+::: {.award-year}
+2025 – 2026
 :::
 
-::: {.timeline-item}
-#### Spectrum
-**Market Analysis Executive** · Aug 2022 – Jan 2023
+#### MSBA — GPA 3.9/4.0
 
-Conducted market research and statistical analysis; produced executive reports to guide data-driven strategic decisions.
-:::
-
-::: {.timeline-item}
-#### Ambev Central America (AB InBev)
-**Revenue Intern** · Jan 2022 – Jul 2022
-
-Built predictive models and automated dashboards for pricing optimization and competitor tracking across national markets.
+University of Miami Herbert Business School. Coursework in deep learning, time series, supply chain analytics, and NLP.
 :::
 
 :::
@@ -103,39 +75,74 @@ Built predictive models and automated dashboards for pricing optimization and co
 
 ::: {.section-container .section-alt}
 
-## Featured Projects {.section-title}
+## Highlights {.section-title}
+
+::: {.section-subtitle}
+Recent work.
+:::
 
 ::: {.projects-grid}
 
 ::: {.project-card}
-### {{< fa solid calendar-check >}} AI Scheduling Assistant
-**UHealth Bascom Palmer Eye Institute** · Sep 2025 – Present
+### {{< fa solid building >}} AI for Equitable Public Transit
+**Deloitte Capstone** · Jan 2026 – Present
 
-Built a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. Implemented RAG with ChromaDB, deterministic safety gates, confidence scoring, and real-time monitoring via LangSmith.
+Predictive models integrating Census ACS, GTFS, and ArcGIS data to identify transit equity gaps in Miami-Dade with SHAP-based interpretability.
+
+`Python` `SHAP` `GTFS` `ArcGIS`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/CapstoneProject-AI-for-Equitable-Transportation){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid robot >}} AI Scheduling Assistant
+**UHealth Bascom Palmer · Capstone** · Sep 2025 – Present
+
+Multi-agent LLM chatbot using LangGraph + GPT-4 Turbo to automate patient scheduling across 100+ providers, with RAG and real-time monitoring.
 
 `LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB`
 :::
 
 ::: {.project-card}
-### {{< fa solid bus >}} AI for Equitable Public Transportation
-**Deloitte** · Jan 2026 – Present
+### {{< fa solid heart-pulse >}} HDL Cholesterol Prediction
+**ASA Data Challenge — Top 10%** · 2026
 
-Building predictive models with regression and time series forecasting (ARIMA) using Census, GTFS, and accessibility data to identify transit gaps, with simulation models and an interactive dashboard for equity-driven recommendations.
+CatBoost model on NHANES data (R² = 0.75) with domain-guided feature engineering and SHAP analysis.
 
-`Python` `ARIMA` `Predictive Modeling` `Dashboard`
+`CatBoost` `SHAP` `NHANES`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/hdl-cholesterol-prediction){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid chart-line >}} DiagBoostTS
+**Python Library** · 2025 – Present
+
+Iterative diagnostic boosting for time series forecasting — systematic EDA → Stationarity → Model → Evaluate pipeline.
+
+`Python` `Time Series` `XGBoost` `SARIMA`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/diagboost-ts){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 :::
 
+::: {style="text-align: center; margin-top: 2rem;"}
+[View all projects →](projects.qmd){.btn .btn-outline-dark}
+:::
+
 :::
 
 
-::: {.section-container .section-alt}
-
-## Let's Connect {.section-title}
+::: {.section-container}
 
 ::: {.connect-section}
-I'm actively looking for opportunities in **Data Science**, **AI/ML Engineering**, and **Business Analytics**. If you're working on something interesting or want to chat, let's connect!
+
+::: {.connect-heading}
+Let's connect.
+:::
+
+I'm actively looking for opportunities in Data Science, AI/ML Engineering, and Business Analytics.
 
 ::: {.connect-links}
 [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}

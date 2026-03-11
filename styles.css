@@ -596,21 +596,23 @@ h4.section-title {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .edu-card .edu-logo,
 .edu-card img.edu-logo {
-  height: 40px;
+  height: 36px;
   width: auto;
-  max-width: 160px;
+  max-width: 180px;
   object-fit: contain;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
   display: block;
 }
 
 .edu-card .degree {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--text);
   margin-bottom: 0.15rem;
 }

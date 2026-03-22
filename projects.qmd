@@ -149,6 +149,74 @@ Supply chain network design and optimization for CanDi, applying analytical mode
 [{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/CanDi-Supply-Chain-Design){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
+::: {.project-card}
+### {{< fa solid file-lines >}} ATS Resume Optimizer {#ats-optimizer}
+
+::: {.project-org-label}
+Personal Project — Live on HuggingFace Spaces
+:::
+::: {.project-date-label}
+2026
+:::
+
+Full-stack AI tool that analyzes resumes against job descriptions using a hybrid ML scoring system: 60% ATS keyword match (Llama 3.1-70B) + 40% semantic similarity (Sentence-Transformers). Generates an optimized, ATS-tailored resume with downloadable PDF.
+
+`Llama 3.1-70B` `Sentence-Transformers` `Gradio` `HuggingFace` `NLP`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/ats-resume-optimizer){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Live Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/ats-resume-optimizer){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid language >}} MayaVoice LLM {#mayavoice}
+
+::: {.project-org-label}
+Personal Project — Generative AI for Indigenous Languages
+:::
+::: {.project-date-label}
+2026
+:::
+
+Multilingual GenAI application for translation and conversation in Guatemalan Mayan languages. Bridges the gap between low-resource indigenous languages and modern AI through fine-tuned LLMs, preserving cultural heritage through technology.
+
+`LLMs` `NLP` `Low-Resource Languages` `HuggingFace` `Gradio`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/mayavoice-llm){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Live Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid calculator >}} Maya Encoding {#maya-encoding}
+
+::: {.project-org-label}
+Personal Project — Open-Source Python Library
+:::
+::: {.project-date-label}
+2026
+:::
+
+Maya-inspired vigesimal numerical encodings for machine learning. Scikit-learn compatible transformers that convert numerical features into base-20 representations inspired by the ancient Maya numeral system, offering a novel feature engineering approach.
+
+`Python` `scikit-learn` `Feature Engineering` `Library Design`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/maya-encoding){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Live Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/maya-encoding-demo){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid atom >}} CounterFlow Neural Network {#counterflow}
+
+::: {.project-org-label}
+Personal Project — Novel Architecture
+:::
+::: {.project-date-label}
+2026
+:::
+
+A novel neural network architecture inspired by counter-current flow in chemical engineering unit operations. Applies principles of heat and mass transfer to information flow in deep learning, creating bidirectional feature exchange between parallel network streams.
+
+`PyTorch` `Deep Learning` `Neural Architecture` `Chemical Engineering`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/counterflow-nn){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
 :::
 
 :::

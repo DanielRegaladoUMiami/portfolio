@@ -237,6 +237,28 @@ CatBoost model on NHANES data (R² = 0.75) with domain-guided feature engineerin
 :::
 
 ::: {.project-card}
+### {{< fa solid file-lines >}} ATS Resume Optimizer
+**Live on HuggingFace** · 2026
+
+Hybrid ML scoring (Llama 3.1-70B + Sentence-Transformers) that analyzes resumes against job descriptions and generates ATS-optimized rewrites.
+
+`Llama 3.1-70B` `Sentence-Transformers` `Gradio`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/ats-resume-optimizer){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/ats-resume-optimizer){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid language >}} MayaVoice LLM
+**GenAI for Mayan Languages** · 2026
+
+Multilingual GenAI for translation and conversation in Guatemalan Mayan languages, bridging low-resource indigenous languages with modern AI.
+
+`LLMs` `NLP` `Low-Resource Languages` `Gradio`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/mayavoice-llm){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
 ### {{< fa solid chart-line >}} DiagBoostTS
 **Python Library** · 2025 – Present
 

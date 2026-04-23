@@ -17,7 +17,7 @@ css: styles.css
 ### Data Scientist · AI/ML Engineer · Business Analyst {.hero-title}
 
 ::: {.hero-currently}
-Currently: MS Business Analytics @ University of Miami · Graduating May 2026
+MS Business Analytics @ University of Miami · Graduating May 2026 — Open to Data Science / AI-ML Engineering roles & collaborations
 :::
 
 ::: {.hero-tagline}

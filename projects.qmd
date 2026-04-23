@@ -255,6 +255,53 @@ A novel neural network architecture inspired by counter-current flow in chemical
 
 :::
 
+<hr class="divider">
+
+::: {.section-container}
+
+## Models & Datasets on Hugging Face {.section-title}
+
+::: {.section-subtitle}
+Fine-tuned models and curated training datasets I've published.
+:::
+
+::: {.projects-grid}
+
+::: {.project-card}
+### {{< fa solid robot >}} Fine-Tuned Models
+
+::: {.project-org-label}
+5 public LoRA adapters on Hugging Face
+:::
+
+- [🤗 mayavoice-llama3.1-8b-lora](https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora){target="_blank"} — Llama 3.1 8B fine-tuned for Mayan-language translation (v1)
+- [🤗 mayavoice-llama3.1-8b-lora-v2](https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora-v2){target="_blank"} — PEFT LoRA, low-resource indigenous NLP (v2)
+- [🤗 chart-reasoner-phi3-mini-lora](https://huggingface.co/DanielRegaladoCardoso/chart-reasoner-phi3-mini-lora){target="_blank"} — Phi-3 Mini fine-tuned for chart-reasoning
+- [🤗 chart-reasoner-phi3-mini-adapter-only](https://huggingface.co/DanielRegaladoCardoso/chart-reasoner-phi3-mini-adapter-only){target="_blank"} — adapter-only variant
+- [🤗 svg-renderer-deepseek-coder-1.3b-lora](https://huggingface.co/DanielRegaladoCardoso/svg-renderer-deepseek-coder-1.3b-lora){target="_blank"} — DeepSeek Coder fine-tuned for SVG chart rendering
+
+`Unsloth` `LoRA / PEFT` `Llama 3.1` `Phi-3` `DeepSeek`
+:::
+
+::: {.project-card}
+### {{< fa solid database >}} Curated Datasets
+
+::: {.project-org-label}
+4 public datasets on Hugging Face
+:::
+
+- [🤗 text-to-sql-mix-v2](https://huggingface.co/datasets/DanielRegaladoCardoso/text-to-sql-mix-v2){target="_blank"} — 100K+ bilingual text-to-SQL pairs (EN/ZH)
+- [🤗 text-to-sql-mix-v1](https://huggingface.co/datasets/DanielRegaladoCardoso/text-to-sql-mix-v1){target="_blank"} — 100K+ text-to-SQL pairs (v1)
+- [🤗 chart-reasoning-mix-v1](https://huggingface.co/datasets/DanielRegaladoCardoso/chart-reasoning-mix-v1){target="_blank"} — 10K+ chart-reasoning examples
+- [🤗 svg-chart-render-v1](https://huggingface.co/datasets/DanielRegaladoCardoso/svg-chart-render-v1){target="_blank"} — 10K+ structured-data → SVG pairs
+
+`Parquet` `Apache 2.0` `Multilingual` `Text-to-SQL` `Chart Reasoning`
+:::
+
+:::
+
+:::
+
 
 ::: {.section-container}
 

@@ -262,7 +262,7 @@ A novel neural network architecture inspired by counter-current flow in chemical
 ## Fine-Tuned Models {.section-title}
 
 ::: {.section-subtitle}
-LoRA adapters I've trained with Unsloth across Llama 3.1, Phi-3, and DeepSeek Coder — open-weights, Apache 2.0, shipped to the Hugging Face Hub.
+LoRA adapters I've trained and shipped.
 :::
 
 ::: {.hf-stats-row}
@@ -388,7 +388,7 @@ DeepSeek Coder 1.3B fine-tuned to render structured data as inline SVG charts. P
 ## Curated Datasets {.section-title}
 
 ::: {.section-subtitle}
-Training corpora I built and released for the SQL-agent and chart-reasoning pipelines — clean Parquet, Apache 2.0.
+Training corpora I built and released.
 :::
 
 ::: {.hf-stats-row}
@@ -489,10 +489,6 @@ Structured-data to inline-SVG rendering pairs. Training signal for the DeepSeek 
 [🤗 View Dataset](https://huggingface.co/datasets/DanielRegaladoCardoso/svg-chart-render-v1){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
-:::
-
-::: {style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: var(--text-secondary);"}
-Together, these datasets and models form the end-to-end training pipeline behind the [SQL Agent with LLMOps](#sql-agent) and [MayaVoice](#mayavoice) projects — data curation → fine-tuning → deployed Space.
 :::
 
 :::

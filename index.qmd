@@ -237,6 +237,28 @@ CatBoost model on NHANES data (R² = 0.75) with domain-guided feature engineerin
 :::
 
 ::: {.project-card}
+### {{< fa solid database >}} SQL Agent with LLMOps
+**Fine-Tuning + RAG** · 2026
+
+Multi-model SQL agent: fine-tuned text-to-SQL, chart reasoning, and SVG rendering via Unsloth and knowledge distillation, deployed on HuggingFace Spaces.
+
+`Unsloth` `Text-to-SQL` `RAG` `LLMOps`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/sql-agent-llmops){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid microchip >}} MoE Backward Optimization
+**Triton Kernels** · 2026
+
+Hand-derived backward passes and fused Triton kernels for Mixture-of-Experts training, following Unsloth's kernel-fusion playbook on expert-routing layers.
+
+`Triton` `PyTorch` `MoE` `Kernel Optimization`
+
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/moesloth){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
 ### {{< fa solid file-lines >}} ATS Resume Optimizer
 **Live on HuggingFace** · 2026
 

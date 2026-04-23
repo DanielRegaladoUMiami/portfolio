@@ -30,7 +30,7 @@ Building predictive models integrating Census ACS, GTFS, and ArcGIS data to iden
 
 `Python` `SHAP` `GTFS` `ArcGIS` `Census ACS`
 
-[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/CapstoneProject-AI-for-Equitable-Transportation){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/CapstoneProject-AI-for-Equitable-Transportation){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Live Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/miami-transit-equity){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 ::: {.project-card}
@@ -63,6 +63,40 @@ Things I've built.
 :::
 
 ::: {.projects-grid}
+
+::: {.project-card}
+### {{< fa solid database >}} Multi-Model SQL Agent with LLMOps {#sql-agent}
+
+::: {.project-org-label}
+Personal Project — Fine-Tuning & LLMOps
+:::
+::: {.project-date-label}
+2026
+:::
+
+Multi-model SQL agent orchestrating three specialized fine-tuned LLMs: Qwen 2.5 Coder 7B for SQL generation, Phi-3 Mini 3.8B for chart reasoning (knowledge-distilled), and DeepSeek Coder 1.3B for SVG rendering. Schema RAG over ChromaDB, DuckDB execution, Plotly fallback, and three public training datasets on the HuggingFace Hub.
+
+`Qwen 2.5 Coder` `Phi-3` `DeepSeek` `Unsloth` `ChromaDB` `DuckDB` `LLMOps`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/sql-agent-llmops){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid microchip >}} MoE Backward Optimization (moesloth) {#moesloth}
+
+::: {.project-org-label}
+Personal Project — Triton Kernels, Unsloth-inspired
+:::
+::: {.project-date-label}
+2026
+:::
+
+Research project applying Unsloth's hand-derived-backward + Triton-fusion methodology to Mixture-of-Experts. Targets sparse O(k) router backward, fused dispatch/combine with expert GEMMs, and LoRA-on-MoE selective grad accumulation. Validation against Megablocks, ScatterMoE, and DeepSeek-MoE on OLMoE and Mixtral.
+
+`Triton` `PyTorch` `Mixture-of-Experts` `Unsloth` `Kernel Fusion`
+
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/moesloth){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
 
 ::: {.project-card}
 ### {{< fa solid heart-pulse >}} HDL Cholesterol Prediction {#hdl}
@@ -214,7 +248,7 @@ A novel neural network architecture inspired by counter-current flow in chemical
 
 `PyTorch` `Deep Learning` `Neural Architecture` `Chemical Engineering`
 
-[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/counterflow-nn){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/counterflow-nn){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Live Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/counterflow-nn){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 :::

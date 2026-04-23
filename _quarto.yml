@@ -35,6 +35,10 @@ website:
         href: https://github.com/DanielRegaladoUMiami
         target: _blank
         aria-label: GitHub
+      - text: "🤗"
+        href: https://huggingface.co/DanielRegaladoCardoso
+        target: _blank
+        aria-label: Hugging Face
       - icon: envelope
         href: mailto:dxr1491@miami.edu
         aria-label: Email
@@ -46,6 +50,9 @@ website:
         target: _blank
       - icon: github
         href: https://github.com/DanielRegaladoUMiami
+        target: _blank
+      - text: "🤗"
+        href: https://huggingface.co/DanielRegaladoCardoso
         target: _blank
       - icon: envelope
         href: mailto:dxr1491@miami.edu

@@ -312,7 +312,7 @@ I'm actively looking for opportunities in Data Science, AI/ML Engineering, and B
 
 ::: {.connect-links}
 [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
-[{{< fa solid envelope >}} dxr1491@miami.edu](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
+[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 [{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
 [🤗 Hugging Face](https://huggingface.co/DanielRegaladoCardoso){.btn .btn-outline-warning .btn-lg target="_blank"}
 :::

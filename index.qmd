@@ -213,7 +213,7 @@ Predictive models integrating Census ACS, GTFS, and ArcGIS data to identify tran
 
 `Python` `SHAP` `GTFS` `ArcGIS`
 
-[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/CapstoneProject-AI-for-Equitable-Transportation){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+[{{< fa brands github >}} Repo](https://github.com/DanielRegaladoUMiami/CapstoneProject-AI-for-Equitable-Transportation){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/miami-transit-equity){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 ::: {.project-card}

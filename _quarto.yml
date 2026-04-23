@@ -6,13 +6,13 @@ website:
   title: "Daniel Regalado Cardoso"
   favicon: assets/favicon.png
   site-url: https://danielregaladoumiami.github.io/portfolio/
-  description: "Data Scientist & AI/ML Engineer — turning complex data into actionable solutions."
+  description: "MSBA @ University of Miami — Business Analytics, Data Science, and AI/ML Engineering. Portfolio of capstones, fine-tuned models, and production LLM projects."
   open-graph:
-    title: "Daniel Regalado Cardoso — Data Scientist & AI/ML Engineer"
+    title: "Daniel Regalado Cardoso — Business Analyst · Data Scientist · AI/ML Engineer"
     description: "Building LLM applications, multi-agent AI systems, and predictive models that drive real business impact."
     image: assets/headshot.jpg
   twitter-card:
-    title: "Daniel Regalado Cardoso — Data Scientist & AI/ML Engineer"
+    title: "Daniel Regalado Cardoso — Business Analyst · Data Scientist · AI/ML Engineer"
     description: "Building LLM applications, multi-agent AI systems, and predictive models that drive real business impact."
     image: assets/headshot.jpg
   navbar:

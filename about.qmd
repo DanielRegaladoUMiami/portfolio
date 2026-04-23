@@ -21,7 +21,7 @@ Data Scientist and AI/ML Engineer based in Miami, originally from **Guatemala**.
 
 Currently pursuing my **MS in Business Analytics** at the University of Miami Herbert Business School (GPA 3.9/4.0). I also hold an MS in Energy Business Management and a BS in Chemical Industrial Engineering from **Universidad del Valle de Guatemala**.
 
-Fluent in English and Spanish, with experience at **CBC (PepsiCo bottler)**, **AB InBev**, **Spectrum**, and collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**.
+Fluent in English and Spanish, with experience at **CBC (The Central America Bottling Corp)**, **AB InBev**, **Spectrum**, and collaborations with **UHealth Bascom Palmer Eye Institute** and **Deloitte**.
 :::
 
 :::
@@ -348,9 +348,9 @@ I'm actively looking for opportunities in Data Science, AI/ML Engineering, and B
 
 ::: {.connect-links}
 [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
-[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 [{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
 [🤗 Hugging Face](https://huggingface.co/DanielRegaladoCardoso){.btn .btn-outline-warning .btn-lg target="_blank"}
+[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 :::
 
 :::

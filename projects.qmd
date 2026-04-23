@@ -511,6 +511,10 @@ I'm always open to discussing new projects and opportunities.
 [{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 :::
 
+::: {.connect-email}
+{{< fa solid envelope >}} &nbsp;[dxr1491@miami.edu](mailto:dxr1491@miami.edu)
+:::
+
 :::
 
 :::

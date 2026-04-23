@@ -353,6 +353,10 @@ I'm actively looking for opportunities in Data Science, AI/ML Engineering, and B
 [{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 :::
 
+::: {.connect-email}
+{{< fa solid envelope >}} &nbsp;[dxr1491@miami.edu](mailto:dxr1491@miami.edu)
+:::
+
 :::
 
 :::

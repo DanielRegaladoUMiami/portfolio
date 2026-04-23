@@ -259,10 +259,10 @@ A novel neural network architecture inspired by counter-current flow in chemical
 
 ::: {.section-container}
 
-## Open-Source ML Engineering {.section-title}
+## Fine-Tuned Models {.section-title}
 
 ::: {.section-subtitle}
-End-to-end: I curate the data, fine-tune the models, and ship them publicly — all under Apache 2.0 on the Hugging Face Hub.
+LoRA adapters I've trained with Unsloth across Llama 3.1, Phi-3, and DeepSeek Coder — open-weights, Apache 2.0, shipped to the Hugging Face Hub.
 :::
 
 ::: {.hf-stats-row}
@@ -272,25 +272,7 @@ End-to-end: I curate the data, fine-tune the models, and ship them publicly — 
 5
 :::
 ::: {.hf-stat-label}
-fine-tuned LoRA models
-:::
-:::
-
-::: {.hf-stat}
-::: {.hf-stat-num}
-4
-:::
-::: {.hf-stat-label}
-curated training datasets
-:::
-:::
-
-::: {.hf-stat}
-::: {.hf-stat-num}
-220K+
-:::
-::: {.hf-stat-label}
-training rows released
+public LoRA adapters
 :::
 :::
 
@@ -303,55 +285,214 @@ base-model families
 :::
 :::
 
+::: {.hf-stat}
+::: {.hf-stat-num}
+3
+:::
+::: {.hf-stat-label}
+downstream tasks
+:::
+:::
+
+::: {.hf-stat}
+::: {.hf-stat-num}
+2
+:::
+::: {.hf-stat-label}
+production pipelines powered
+:::
+:::
+
 :::
 
 ::: {.projects-grid}
 
 ::: {.project-card}
-### {{< fa solid robot >}} Fine-Tuned Models
+### {{< fa solid language >}} MayaVoice — Llama 3.1 8B (v2)
 
 ::: {.project-org-label}
-LoRA adapters across Llama 3.1, Phi-3, and DeepSeek Coder — fine-tuned with Unsloth
+PEFT LoRA · low-resource indigenous NLP
 :::
 
-**Low-resource NLP**
+Fine-tuned Llama 3.1 8B for translation and conversation across Guatemalan Mayan languages — tagged for low-resource Americas NLP. Currently powers the [MayaVoice Space](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){target="_blank"}.
 
-- [🤗 mayavoice-llama3.1-8b-lora-v2](https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora-v2){target="_blank"} — Llama 3.1 8B adapter for Guatemalan Mayan-language translation. Tagged for low-resource indigenous NLP; powers the [MayaVoice Space](https://huggingface.co/spaces/DanielRegaladoCardoso/mayavoice){target="_blank"}.
-- [🤗 mayavoice-llama3.1-8b-lora](https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora){target="_blank"} — v1 baseline release.
+`Llama 3.1 8B` `PEFT LoRA` `Translation` `Mayan`
 
-**Multi-model SQL agent stack**
-
-- [🤗 chart-reasoner-phi3-mini-lora](https://huggingface.co/DanielRegaladoCardoso/chart-reasoner-phi3-mini-lora){target="_blank"} — Phi-3 Mini 3.8B fine-tuned to pick the right chart type for a given query + schema. Knowledge-distilled.
-- [🤗 chart-reasoner-phi3-mini-adapter-only](https://huggingface.co/DanielRegaladoCardoso/chart-reasoner-phi3-mini-adapter-only){target="_blank"} — lightweight adapter-only release (pair with base model).
-- [🤗 svg-renderer-deepseek-coder-1.3b-lora](https://huggingface.co/DanielRegaladoCardoso/svg-renderer-deepseek-coder-1.3b-lora){target="_blank"} — DeepSeek Coder 1.3B fine-tuned to render structured data as inline SVG charts.
-
-`Unsloth` `LoRA / PEFT` `Llama 3.1 8B` `Phi-3 Mini` `DeepSeek Coder 1.3B`
+[🤗 View Model](https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora-v2){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 ::: {.project-card}
-### {{< fa solid database >}} Curated Datasets
+### {{< fa solid language >}} MayaVoice — Llama 3.1 8B (v1)
 
 ::: {.project-org-label}
-Training corpora I built and released — 220K+ rows, Parquet, Apache 2.0
+Baseline release · Unsloth + TRL
 :::
 
-**Text-to-SQL (bilingual EN / ZH)**
+First-pass LoRA on Llama 3.1 8B for Mayan-language generation. Baseline that v2 iterates on.
 
-- [🤗 text-to-sql-mix-v2](https://huggingface.co/datasets/DanielRegaladoCardoso/text-to-sql-mix-v2){target="_blank"} — 100K+ rows, adds Chinese coverage and task-ID metadata for multilingual SQL-generation fine-tuning.
-- [🤗 text-to-sql-mix-v1](https://huggingface.co/datasets/DanielRegaladoCardoso/text-to-sql-mix-v1){target="_blank"} — 100K+ rows, English baseline. Prior version used for SQL-generator LoRA training.
+`Llama 3.1 8B` `Unsloth` `TRL` `LoRA`
 
-**Chart reasoning & rendering**
+[🤗 View Model](https://huggingface.co/DanielRegaladoCardoso/mayavoice-llama3.1-8b-lora){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
 
-- [🤗 chart-reasoning-mix-v1](https://huggingface.co/datasets/DanielRegaladoCardoso/chart-reasoning-mix-v1){target="_blank"} — 10K–100K examples mapping natural-language queries + schemas to chart-type decisions. Used to distill the Phi-3 chart reasoner.
-- [🤗 svg-chart-render-v1](https://huggingface.co/datasets/DanielRegaladoCardoso/svg-chart-render-v1){target="_blank"} — 10K–100K structured-data → SVG rendering pairs. Training signal for the DeepSeek SVG renderer.
+::: {.project-card}
+### {{< fa solid chart-column >}} Chart Reasoner — Phi-3 Mini
 
-`Parquet` `Apache 2.0` `Multilingual EN/ZH` `Text-to-SQL` `Chart Reasoning`
+::: {.project-org-label}
+Knowledge-distilled · SQL-agent orchestration
+:::
+
+Phi-3 Mini 3.8B fine-tuned to pick the right chart type for a query + schema. Distilled from a larger teacher; deployed as the reasoning node of the [SQL Agent with LLMOps](#sql-agent).
+
+`Phi-3 Mini 3.8B` `Knowledge Distillation` `Chart Reasoning`
+
+[🤗 View Model](https://huggingface.co/DanielRegaladoCardoso/chart-reasoner-phi3-mini-lora){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid feather >}} Chart Reasoner — Adapter Only
+
+::: {.project-org-label}
+Lightweight release · pair with base
+:::
+
+Adapter-only variant of the Phi-3 chart reasoner for users who want to load the LoRA on top of their own base-model cache.
+
+`Phi-3 Mini` `Adapter Only` `PEFT`
+
+[🤗 View Model](https://huggingface.co/DanielRegaladoCardoso/chart-reasoner-phi3-mini-adapter-only){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid code >}} SVG Renderer — DeepSeek Coder
+
+::: {.project-org-label}
+1.3B code model · structured-data → SVG
+:::
+
+DeepSeek Coder 1.3B fine-tuned to render structured data as inline SVG charts. Powers the visualization node of the SQL agent when the Plotly fallback isn't needed.
+
+`DeepSeek Coder 1.3B` `SVG Generation` `Code-LLM`
+
+[🤗 View Model](https://huggingface.co/DanielRegaladoCardoso/svg-renderer-deepseek-coder-1.3b-lora){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 :::
 
-::: {style="text-align: center; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-secondary);"}
-Everything above plugs into the [SQL Agent with LLMOps](#sql-agent) and [MayaVoice](#mayavoice) projects — the pipelines ship as reproducible public artifacts.
+:::
+
+<hr class="divider">
+
+::: {.section-container}
+
+## Curated Datasets {.section-title}
+
+::: {.section-subtitle}
+Training corpora I built and released for the SQL-agent and chart-reasoning pipelines — clean Parquet, Apache 2.0.
+:::
+
+::: {.hf-stats-row}
+
+::: {.hf-stat}
+::: {.hf-stat-num}
+4
+:::
+::: {.hf-stat-label}
+public datasets
+:::
+:::
+
+::: {.hf-stat}
+::: {.hf-stat-num}
+220K+
+:::
+::: {.hf-stat-label}
+training rows
+:::
+:::
+
+::: {.hf-stat}
+::: {.hf-stat-num}
+2
+:::
+::: {.hf-stat-label}
+languages (EN / ZH)
+:::
+:::
+
+::: {.hf-stat}
+::: {.hf-stat-num}
+190+
+:::
+::: {.hf-stat-label}
+dataset downloads
+:::
+:::
+
+:::
+
+::: {.projects-grid}
+
+::: {.project-card}
+### {{< fa solid database >}} text-to-sql-mix-v2
+
+::: {.project-org-label}
+100K+ rows · bilingual EN / ZH
+:::
+
+Second-generation text-to-SQL corpus. Adds Chinese coverage and task-ID metadata for multilingual SQL-generation fine-tuning. Current training signal for the SQL-generator stack.
+
+`Text-to-SQL` `EN / ZH` `100K+ rows` `Parquet`
+
+[🤗 View Dataset](https://huggingface.co/datasets/DanielRegaladoCardoso/text-to-sql-mix-v2){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid database >}} text-to-sql-mix-v1
+
+::: {.project-org-label}
+100K+ rows · English baseline
+:::
+
+First-gen text-to-SQL training set (English). Prior version used to train the SQL-generator LoRA and benchmark against v2.
+
+`Text-to-SQL` `English` `100K+ rows` `Parquet`
+
+[🤗 View Dataset](https://huggingface.co/datasets/DanielRegaladoCardoso/text-to-sql-mix-v1){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid chart-pie >}} chart-reasoning-mix-v1
+
+::: {.project-org-label}
+10K–100K rows · query + schema → chart type
+:::
+
+Natural-language query and schema pairs mapped to chart-type decisions. Distillation source for the Phi-3 chart reasoner.
+
+`Chart Reasoning` `Distillation Corpus` `Parquet`
+
+[🤗 View Dataset](https://huggingface.co/datasets/DanielRegaladoCardoso/chart-reasoning-mix-v1){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid code >}} svg-chart-render-v1
+
+::: {.project-org-label}
+10K–100K rows · structured data → SVG
+:::
+
+Structured-data to inline-SVG rendering pairs. Training signal for the DeepSeek SVG renderer.
+
+`SVG Rendering` `Code Generation` `Parquet`
+
+[🤗 View Dataset](https://huggingface.co/datasets/DanielRegaladoCardoso/svg-chart-render-v1){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: var(--text-secondary);"}
+Together, these datasets and models form the end-to-end training pipeline behind the [SQL Agent with LLMOps](#sql-agent) and [MayaVoice](#mayavoice) projects — data curation → fine-tuning → deployed Space.
 :::
 
 :::

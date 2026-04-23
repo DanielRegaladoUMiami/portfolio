@@ -29,7 +29,6 @@ Turning complex data into actionable solutions — from LLM-powered applications
 [{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
 [🤗 Hugging Face](https://huggingface.co/DanielRegaladoCardoso){.btn .btn-outline-warning .btn-lg target="_blank"}
 [{{< fa solid file-arrow-down >}} Resume](Daniel_Regalado_Resume.pdf){.btn .btn-outline-primary .btn-lg target="_blank"}
-[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-secondary .btn-lg target="_blank"}
 :::
 
 :::

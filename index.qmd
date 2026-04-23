@@ -220,9 +220,9 @@ Predictive models integrating Census ACS, GTFS, and ArcGIS data to identify tran
 ### {{< fa solid robot >}} AI Scheduling Assistant
 **UHealth Bascom Palmer · Capstone** · Sep 2025 – Present
 
-Multi-agent LLM chatbot using LangGraph + GPT-4 Turbo to automate patient scheduling across 100+ providers, with RAG and real-time monitoring.
+Prototyped a LangGraph + GPT-4 multi-agent chatbot with RAG and real-time monitoring; shipped the production solution on Microsoft Copilot Studio for 100+ providers.
 
-`LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB`
+`Copilot Studio` `LangGraph` `GPT-4` `RAG`
 :::
 
 ::: {.project-card}

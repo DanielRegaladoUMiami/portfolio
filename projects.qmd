@@ -43,9 +43,9 @@ UHealth Bascom Palmer Eye Institute · University of Miami
 Sep 2025 – Present
 :::
 
-Built a multi-agent LLM chatbot using LangGraph, LangChain, and GPT-4 Turbo to automate patient scheduling across 100+ providers. Implemented RAG with ChromaDB, deterministic safety gates, confidence scoring, and real-time monitoring via LangSmith. Multi-node architecture with Microsoft Copilot Studio frontend.
+Prototyped a multi-agent LLM chatbot with LangGraph, LangChain, and GPT-4 Turbo — RAG over ChromaDB, deterministic safety gates, confidence scoring, and LangSmith monitoring — then shipped the production solution on Microsoft Copilot Studio integrated with UHealth's scheduling systems for 100+ providers.
 
-`LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB` `Copilot Studio`
+`Copilot Studio` `LangGraph` `LangChain` `GPT-4` `RAG` `ChromaDB`
 :::
 
 :::

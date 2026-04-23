@@ -131,7 +131,7 @@ Universidad del Valle de Guatemala
 Commercial Assets Analyst
 :::
 ::: {.exp-flow-company}
-CBC (PepsiCo)
+CBC
 :::
 ::: {.exp-flow-date}
 2024 – 2025
@@ -143,7 +143,7 @@ CBC (PepsiCo)
 Trade Marketing Admin
 :::
 ::: {.exp-flow-company}
-CBC (PepsiCo)
+CBC
 :::
 ::: {.exp-flow-date}
 2023 – 2024
@@ -155,7 +155,7 @@ CBC (PepsiCo)
 Commercial Processes Intern
 :::
 ::: {.exp-flow-company}
-CBC (PepsiCo)
+CBC
 :::
 ::: {.exp-flow-date}
 2023
@@ -312,9 +312,9 @@ I'm actively looking for opportunities in Data Science, AI/ML Engineering, and B
 
 ::: {.connect-links}
 [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/daniel-regalado-cardoso-81551b16b){.btn .btn-primary .btn-lg target="_blank"}
-[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 [{{< fa brands github >}} GitHub](https://github.com/DanielRegaladoUMiami){.btn .btn-outline-dark .btn-lg target="_blank"}
 [🤗 Hugging Face](https://huggingface.co/DanielRegaladoCardoso){.btn .btn-outline-warning .btn-lg target="_blank"}
+[{{< fa solid envelope >}} Email](mailto:dxr1491@miami.edu){.btn .btn-outline-primary .btn-lg target="_blank"}
 :::
 
 :::

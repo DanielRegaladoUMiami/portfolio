@@ -1156,3 +1156,49 @@ main.content { margin-top: 0 !important; }
   background: var(--bg-alt);
 }
 
+
+/* ── HF Models & Datasets stats row ───────── */
+.hf-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1.5rem auto 2.5rem;
+  max-width: 880px;
+}
+
+@media (max-width: 640px) {
+  .hf-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hf-stat {
+  text-align: center;
+  padding: 1.25rem 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: all 0.25s var(--ease);
+}
+
+.hf-stat:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.hf-stat-num {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.hf-stat-label {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}

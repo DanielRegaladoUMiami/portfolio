@@ -1007,7 +1007,7 @@ main.content { margin-top: 0 !important; }
   .exp-flow-item {
     border-right: none;
     border-bottom: 1px solid var(--border);
-    padding: 0.85rem 0;
+    padding: 0.85rem 0 0.85rem 1rem;
   }
   .exp-flow-item:last-child { border-bottom: none; }
   .exp-flow-item::before {

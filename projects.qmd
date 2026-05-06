@@ -78,7 +78,7 @@ Multi-model SQL agent orchestrating three specialized fine-tuned LLMs: Qwen 2.5 
 
 `Qwen 2.5 Coder` `Phi-3` `DeepSeek` `Unsloth` `ChromaDB` `DuckDB` `LLMOps`
 
-[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/sql-agent-llmops){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+[{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/sql-agent-llmops){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"} · [{{< fa solid arrow-up-right-from-square >}} Live Demo](https://huggingface.co/spaces/DanielRegaladoCardoso/sql-agent){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 ::: {.project-card}
@@ -147,6 +147,23 @@ End-to-end time series forecasting of product sales — exploratory data analysi
 `Python` `Time Series` `Cross-Validation` `EDA`
 
 [{{< fa brands github >}} View Repository](https://github.com/DanielRegaladoUMiami/product-sales-forecasting){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
+:::
+
+::: {.project-card}
+### {{< fa solid mug-hot >}} Coffee Shop Big Data Analytics {#coffee-shop}
+
+::: {.project-org-label}
+Big Data Final Project — PySpark + XGBoost
+:::
+::: {.project-date-label}
+2026
+:::
+
+End-to-end big-data ML on ~1.8M coffee-shop transactions. PySpark for distributed ingest, cleaning, and EDA; scikit-learn + XGBoost + Optuna for modeling; SHAP for global and local explanations. Wait time R² 0.34 (+34.8%), purchase amount R² 0.86, rewards-member AUC 0.98 / F1 0.89. Cyclic-hour encodings, peak-hour interactions, and ordinal income features.
+
+`PySpark` `XGBoost` `Optuna` `SHAP` `scikit-learn` `Big Data`
+
+[{{< fa brands github >}} View Repository](https://github.com/nefelizafeiri/Coffee_big_data_analytics_final_project){target="_blank" style="font-size: 0.82rem; color: var(--accent-blue);"}
 :::
 
 ::: {.project-card}
